@@ -17,16 +17,52 @@ FIELDNAMES = ["Date", "Company Name", "Source of Information"]
 # Seed dataset of verified opportunities and continuous discovery channels
 VERIFIED_LEADS = [
     {
+        "Company Name": "Digital India Corporation (DIC)",
+        "Source of Information": "https://dic.gov.in/add_tender/request-for-empanelment-of-agencies-to-provide-manpower-for-it-solutions-2/ (Tender ID: 2026_DIT_909655_1 - Request for Empanelment of Agencies to provide Manpower for IT Solutions)"
+    },
+    {
+        "Company Name": "National e-Governance Division (NeGD)",
+        "Source of Information": "https://negd.gov.in/empanelment-by-negd/ (Digital India Rate Contracts for UI/UX, Frontend Engineers, & AI/ML Technical Manpower Augmentation)"
+    },
+    {
         "Company Name": "State Bank of India (SBI)",
         "Source of Information": "https://sbi.bank.in (Ref: SBI/GITC/IT-Partner Relationship/2025-26/1042/III - Empanelment of IT Companies for Niche Tech Resources)"
     },
     {
-        "Company Name": "Himachal Pradesh State Electronics Development Corporation Limited (HPSEDC)",
-        "Source of Information": "https://himachalpradeshtenders.in (Tender Ref: 2026_HPSED_144559_1 - Empanelment of IT Agencies for Software/Website Development)"
+        "Company Name": "UP Electronics Corporation Ltd (UPLC)",
+        "Source of Information": "https://etender.up.nic.in (Tender ID: 2026_UPECL_1110680_1 - Empanelment of Software Developers, Cloud Architects, and System Integrators)"
     },
     {
-        "Company Name": "Digital India Corporation (DIC)",
-        "Source of Information": "https://dic.gov.in (Request for Empanelment of Agencies for IT Manpower and Staff Augmentation)"
+        "Company Name": "Odisha Computer Application Centre (OCAC)",
+        "Source of Information": "https://www.ocac.in (RFP Ref: OCAC-SEGP-MISC-0003-2025-25028 - Empanelment of Software Development Firms & IT Resource Augmentation)"
+    },
+    {
+        "Company Name": "Centre for Management Development (CMD), Kerala",
+        "Source of Information": "https://cmd.kerala.gov.in (Ref: PMU/TDB/DIGI/EOI/2026/01 - Empanelment of IT Companies & Startups for Technical Resource Augmentation)"
+    },
+    {
+        "Company Name": "Software Technology Parks of India (STPI)",
+        "Source of Information": "https://stpi.in (Ref: STPI/TECH/NSIG/MISC/24-25/2/II - Tender for IT Staff Augmentation & Engineering Technical Support)"
+    },
+    {
+        "Company Name": "Centre for Development of Imaging Technology (C-DIT), Kerala",
+        "Source of Information": "https://cdit.kerala.gov.in/?p=7091 (Empanelment of Technical Resource Persons & Software Consultants for Digital Solutions)"
+    },
+    {
+        "Company Name": "Uttar Pradesh Development Systems Corporation Limited (UPDESCO)",
+        "Source of Information": "https://updesco.up.nic.in (Ref: UPD/Empl/2026/SP/1 - Empanelment of Agencies for Software Development & Technical Manpower)"
+    },
+    {
+        "Company Name": "Film and Television Institute of India (FTII)",
+        "Source of Information": "https://ftii.ac.in/tenders/empanelment-of-agency-for-technical-manpower (GeM Bid ID: GEM/2025/B/5996853 - Empanelment of Agency for Technical Manpower)"
+    },
+    {
+        "Company Name": "Shreetron India Limited (Govt. of UP Undertaking)",
+        "Source of Information": "https://skillspedia.in (Empanelment of Agencies/Firms for IT & ITES Technical Manpower Solutions)"
+    },
+    {
+        "Company Name": "Himachal Pradesh State Electronics Development Corporation Limited (HPSEDC)",
+        "Source of Information": "https://himachalpradeshtenders.in (Tender Ref: 2026_HPSED_144559_1 - Empanelment of IT Agencies for Software/Website Development)"
     },
     {
         "Company Name": "National Informatics Centre Services Inc. (NICSI)",
@@ -41,56 +77,24 @@ VERIFIED_LEADS = [
         "Source of Information": "https://www.bankofbaroda.bank.in/tenders (RFP for Empanelment of Software Developers & IT Resource Providers)"
     },
     {
-        "Company Name": "Travancore Devaswom Board (Govt. of Kerala)",
-        "Source of Information": "https://kerala.gov.in (EOI for Empanelment of IT Companies & MSMEs for Technical Human Resources)"
-    },
-    {
-        "Company Name": "UP Electronics Corporation Ltd (UPLC)",
-        "Source of Information": "https://etender.up.nic.in (Empanelment of Software Developers and Cloud System Integrators)"
-    },
-    {
-        "Company Name": "Software Technology Parks of India (STPI)",
-        "Source of Information": "https://stpi.in (Tender for IT Staff Augmentation & Engineering Technical Support)"
-    },
-    {
-        "Company Name": "National e-Governance Division (NeGD)",
-        "Source of Information": "https://negd.gov.in/empanelment-by-negd/ (Digital India Panel for Frontend Engineers, UI/UX, & AI/ML Technical Manpower Augmentation)"
-    },
-    {
-        "Company Name": "Centre for Management Development (CMD), Kerala",
-        "Source of Information": "https://cmd.kerala.gov.in (Ref: PMU/TDB/DIGI/EOI/2026/01 - Empanelment of IT Companies & Startups for Technical Resource Augmentation)"
-    },
-    {
-        "Company Name": "Shreetron India Limited (Govt. of UP Undertaking)",
-        "Source of Information": "https://skillspedia.in (Empanelment of Agencies/Firms for IT & ITES Technical Manpower Solutions)"
-    },
-    {
-        "Company Name": "Film and Television Institute of India (FTII)",
-        "Source of Information": "https://ftii.ac.in/tenders/empanelment-of-agency-for-technical-manpower (Empanelment of Agency for Technical & IT Manpower)"
-    },
-    {
-        "Company Name": "The University of Arizona",
-        "Source of Information": "https://vendors.arizona.edu (RFP #L302403 - IT Staff Augmentation Services)"
-    },
-    {
-        "Company Name": "Bhupendra Prabhakar (Tech Sourcing Lead)",
-        "Source of Information": "https://www.linkedin.com/posts/bhupendraprabhakar_we-are-looking-for-recruitment-vendors-activity-7485988875912388608-FvPU (Vendor Requirement: DevOps, Cloud AWS/Azure, Data Eng, AI/ML, Full Stack)"
-    },
-    {
-        "Company Name": "Deepak Panchal (Staffing & Vendor Network)",
-        "Source of Information": "https://www.linkedin.com/posts/deepak-panchal-a2b384195_onsitehiring-itstaffing-vendornetwork-activity-7490662140169707520-Vr4d (IT Staffing Vendor Empanelment & Contractual Staff Augmentation)"
-    },
-    {
-        "Company Name": "Aditya K (Contractual Tech Recruitment)",
-        "Source of Information": "https://www.linkedin.com/posts/aditya-k-76a0311a2_c2h-contracttohire-recruitment-activity-7498680101295788032-C7SF (Vendor Partnership for Tech C2H & Contractual Hiring)"
-    },
-    {
         "Company Name": "Petroleum and Natural Gas Regulatory Board (PNGRB)",
         "Source of Information": "https://pngrb.gov.in (RFP for Application Development Agency & IT Resources)"
     },
     {
         "Company Name": "Triangle Solutions",
         "Source of Information": "https://www.linkedin.com/in/chinmayee-ramesh-8a5001327/ (Vendor Empanelment Notice for IT Recruitment & Staffing Partners - connect@trianglesolutions.in)"
+    },
+    {
+        "Company Name": "AgileTurn",
+        "Source of Information": "https://www.linkedin.com/posts/bhupendraprabhakar_we-are-looking-for-recruitment-vendors-activity-7485988875912388608-FvPU (Recruitment Vendors for DevOps, Cloud, Data Eng, AI/ML, Full Stack - sales@agileturn.in)"
+    },
+    {
+        "Company Name": "Artech Information Systems",
+        "Source of Information": "https://www.linkedin.com/posts/aditya-k-76a0311a2_c2h-contracttohire-recruitment-activity-7498680101295788032-C7SF (Vendor Sourcing for Contract-to-Hire C2H Tech Roles - aditya.kishan@artechinfo.in)"
+    },
+    {
+        "Company Name": "Atzean Technologies LLP",
+        "Source of Information": "https://www.linkedin.com/posts/deepak-panchal-a2b384195_onsitehiring-itstaffing-vendornetwork-activity-7490662140169707520-Vr4d (IT Staffing Vendor Network & Contractual Tech Hiring Partner Notice)"
     },
     {
         "Company Name": "CBSPL India",
@@ -121,16 +125,44 @@ VERIFIED_LEADS = [
         "Source of Information": "https://www.icann.org/en/system/files/files/rfp-software-engineering-staff-augmentation.pdf (RFP for Software Engineering Staff Augmentation)"
     },
     {
+        "Company Name": "The University of Arizona",
+        "Source of Information": "https://vendors.arizona.edu (RFP #L302403 - IT Staff Augmentation Services)"
+    },
+    {
         "Company Name": "Michigan State University (MSU)",
         "Source of Information": "https://usd.msu.edu/purchasing/open-bids (RFP #912634 - IT Staff Augmentation Services)"
     },
     {
-        "Company Name": "City of Richmond",
-        "Source of Information": "https://www.rva.gov/procurement-services (RFP for IT Staff Augmentation & Technical Workforce Services)"
+        "Company Name": "New York State Energy Research and Development Authority (NYSERDA)",
+        "Source of Information": "https://portal.nyserda.ny.gov (RFP Ref: RFP 6052 - IT Staff Augmentation Services Master Agreement)"
     },
     {
         "Company Name": "State of Louisiana (Division of Administration)",
-        "Source of Information": "https://www.doa.la.gov/doa/osp/vendor-resources/ (RFP for IT Professional Services & Technical Staffing Vendors)"
+        "Source of Information": "https://wwwcfprd.doa.louisiana.gov/osp/lapac/agency/pdf/9000900.pdf (RFP for IT Staff Augmentation Services)"
+    },
+    {
+        "Company Name": "State of Oklahoma (OMES / DCS)",
+        "Source of Information": "https://www.ok.gov/dcs/solicit/app/viewAttachment.php?attachmentID=89356 (Contract Ref: SW1025CE - Statewide IT Staff Augmentation Master Agreement)"
+    },
+    {
+        "Company Name": "Florida Department of Management Services",
+        "Source of Information": "https://www.dms.myflorida.com (Contract Ref: 80101507-23-STC-ITSA - IT Staff Augmentation Services Vendor Pool)"
+    },
+    {
+        "Company Name": "Buffalo Public Schools (BPS)",
+        "Source of Information": "https://go.boarddocs.com (RFP Ref: 26-0627E4-042 - IT Staff Augmentations Services RFP)"
+    },
+    {
+        "Company Name": "Harris Health System",
+        "Source of Information": "https://media.governmentnavigator.com (RFP Ref: 240174 - IT Consulting and Staff Augmentation Services Master Pool)"
+    },
+    {
+        "Company Name": "Canada Deposit Insurance Corporation (CDIC)",
+        "Source of Information": "https://www.instantmarkets.com/q/it_staff_augmentation_services (Solicitation for IT Staff Augmentation Services & Software Development Resources)"
+    },
+    {
+        "Company Name": "City of Richmond",
+        "Source of Information": "https://www.rva.gov/procurement-services (RFP for IT Staff Augmentation & Technical Workforce Services)"
     },
     {
         "Company Name": "City of Los Angeles (RAMPLA)",
