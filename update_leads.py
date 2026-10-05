@@ -69,6 +69,22 @@ VERIFIED_LEADS = [
         "Source of Information": "https://ftii.ac.in/tenders/empanelment-of-agency-for-technical-manpower (Empanelment of Agency for Technical & IT Manpower)"
     },
     {
+        "Company Name": "The University of Arizona",
+        "Source of Information": "https://vendors.arizona.edu (RFP #L302403 - IT Staff Augmentation Services)"
+    },
+    {
+        "Company Name": "Bhupendra Prabhakar (Tech Sourcing Lead)",
+        "Source of Information": "https://www.linkedin.com/posts/bhupendraprabhakar_we-are-looking-for-recruitment-vendors-activity-7485988875912388608-FvPU (Vendor Requirement: DevOps, Cloud AWS/Azure, Data Eng, AI/ML, Full Stack)"
+    },
+    {
+        "Company Name": "Deepak Panchal (Staffing & Vendor Network)",
+        "Source of Information": "https://www.linkedin.com/posts/deepak-panchal-a2b384195_onsitehiring-itstaffing-vendornetwork-activity-7490662140169707520-Vr4d (IT Staffing Vendor Empanelment & Contractual Staff Augmentation)"
+    },
+    {
+        "Company Name": "Aditya K (Contractual Tech Recruitment)",
+        "Source of Information": "https://www.linkedin.com/posts/aditya-k-76a0311a2_c2h-contracttohire-recruitment-activity-7498680101295788032-C7SF (Vendor Partnership for Tech C2H & Contractual Hiring)"
+    },
+    {
         "Company Name": "Petroleum and Natural Gas Regulatory Board (PNGRB)",
         "Source of Information": "https://pngrb.gov.in (RFP for Application Development Agency & IT Resources)"
     },
