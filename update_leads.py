@@ -53,6 +53,22 @@ VERIFIED_LEADS = [
         "Source of Information": "https://stpi.in (Tender for IT Staff Augmentation & Engineering Technical Support)"
     },
     {
+        "Company Name": "National e-Governance Division (NeGD)",
+        "Source of Information": "https://negd.gov.in/empanelment-by-negd/ (Digital India Panel for Frontend Engineers, UI/UX, & AI/ML Technical Manpower Augmentation)"
+    },
+    {
+        "Company Name": "Centre for Management Development (CMD), Kerala",
+        "Source of Information": "https://cmd.kerala.gov.in (Ref: PMU/TDB/DIGI/EOI/2026/01 - Empanelment of IT Companies & Startups for Technical Resource Augmentation)"
+    },
+    {
+        "Company Name": "Shreetron India Limited (Govt. of UP Undertaking)",
+        "Source of Information": "https://skillspedia.in (Empanelment of Agencies/Firms for IT & ITES Technical Manpower Solutions)"
+    },
+    {
+        "Company Name": "Film and Television Institute of India (FTII)",
+        "Source of Information": "https://ftii.ac.in/tenders/empanelment-of-agency-for-technical-manpower (Empanelment of Agency for Technical & IT Manpower)"
+    },
+    {
         "Company Name": "Petroleum and Natural Gas Regulatory Board (PNGRB)",
         "Source of Information": "https://pngrb.gov.in (RFP for Application Development Agency & IT Resources)"
     },
