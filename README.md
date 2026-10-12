@@ -23,11 +23,11 @@ Multi-Source       Concurrent HTTP     Buyer Signals + Tech +         Append Act
 Ingestion          & Dead Pruning      Canonical URL Keys             Leads to CSV
 ```
 
-1. **Stage 1: Multi-Source Dynamic Discovery**
-   - **Hacker News Tech Hiring API:** Ingests live monthly buyer requirements looking for contract, B2B, or freelance engineering teams.
-   - **RemoteOK API:** Filters for active 1099, contractor, and B2B software engineering and tech postings.
-   - **Live Procurement & Tender Feeds:** Monitors real-time Google News RSS queries for IT vendor empanelment notices and staff augmentation RFPs.
-   - **Standing Solicitations Registry:** Curated baseline of active enterprise and government vendor programs.
+1. **Stage 1: Multi-Source Dynamic Discovery (No Fixed Leads)**
+   - **Hacker News Tech Hiring API:** Ingests live monthly buyer requirements dynamically (`Who is hiring?`) seeking contract, B2B, or freelance engineering teams.
+   - **RemoteOK Live API:** Continuously streams newly posted remote 1099, contractor, and B2B software engineering opportunities.
+   - **Multi-Query Procurement & RFP Radar:** Live Google News RSS monitoring across 8 targeted queries for IT vendor empanelment notices, tenders, and staff augmentation RFPs.
+   - **Dice Enterprise C2C Radar:** Surfaces live Corp-to-Corp (C2C) developer, DevOps, and cloud engineering solicitations from US and global enterprises.
 
 2. **Stage 2: Concurrent Evidence Validation**
    - Multi-threaded HTTP status validation with configurable timeouts and connection pooling.
